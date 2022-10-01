@@ -1,91 +1,47 @@
-.searchbardiv{
-	display: block;
-	position: fixed;
-	background: #7D1935 ;
-	top: 50px;
-	right: 0px;
-	z-index: 1001;
-	width: 100%;
-	max-width: 100%;
-	padding: 10px;
-	margin: 0px;
-}
-.buttonsearch{
-	position: fixed;
-	top :18px;
-	float: right;
-	right: 0px;
-	margin-right: 10px;
-	background-color: transparent;
-	border: 0px;
-	-webkit-box-shadow: none;
-	-moz-box-shadow: none;
-	box-shadow: none;
-}
-.buttonsearch:hover{
-	-webkit-box-shadow: none;
-	-moz-box-shadow: none;
-	box-shadow: none;
-	border: 0px;
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap');
 
-}
-.buttonsearch:focus{
-	-webkit-box-shadow: none;
-	-moz-box-shadow: none;
-	box-shadow: none;
-	border: 0px;
-
-}
-#formsearch{
-	display: none;
-}
-.glyphicon.glyphicon-search {
-	font-size: 18px;
-}
-#searchbox {
-	
-	box-shadow: none;
-	padding: 8px 14px;
-}
-#searchbox:hover {
-	box-shadow: none;
+.navbar-brand{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 900;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-.form-control:focus {
-	border-color: #ccc;
-	}
+.navbar-brand:hover,.navbar-brand>span:hover{
+    color: rgb(253, 23, 165) !important;
+}
 
+.nav-link.active{
+    font-family: fantasy;
+    font-weight: 100;
+}
 
+.nav-link.active:hover{
+    background-color: rgb(243, 230, 230);
+    border-radius: 3px;
+    color: rgb(253, 23, 165) !important;
+}
 
-.navbar-toggle {
-	margin-right: 35px;
-	border: none;
-	background: transparent !important;
+body{
+    background-color: rgb(211, 122, 165);
 }
-.navbar-toggle:hover {
-	background: transparent !important;
+
+.btn.btn-danger{
+    color: rgb(255, 255, 255);
+    background-color: rgb(253, 23, 165);
 }
-.navbar-toggle .icon-bar {
-	width: 22px;
-	transition: all 0.2s;
+
+.dropdown-menu{
+    background-color: rgb(241, 208, 241);
 }
-.navbar-toggle .top-bar {
-	transform: rotate(45deg);
-	transform-origin: 10% 10%;
+
+.dropdown-item{
+    color: rgb(242, 14, 105);
+    font-family: fantasy;
+    font-weight: 100;
 }
-.navbar-toggle .middle-bar {
-	opacity: 0;
-}
-.navbar-toggle .bottom-bar {
-	transform: rotate(-45deg);
-	transform-origin: 10% 90%;
-}
-.navbar-toggle.collapsed .top-bar {
-	transform: rotate(0);
-}
-.navbar-toggle.collapsed .middle-bar {
-	opacity: 1;
-}
-.navbar-toggle.collapsed .bottom-bar {
-	transform: rotate(0);
+
+.dropdown-item:hover{
+    background-color:rgb(241, 208, 241) ;
+    color: rgb(253, 23, 165);
 }
