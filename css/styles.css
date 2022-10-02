@@ -1,4 +1,4 @@
-/*Navbar*/
+/* Style Navbar*/
 
 /* Remove border from toggler */
 .navbar-toggler {
@@ -164,3 +164,11 @@ body{
 .btn.btn-danger:hover{
     box-shadow:100px 0 0 #ff00bb inset;
 }
+
+/*Style Caraousel*/
+#Banner.carousel-item  {
+    height: 35rem;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+  }
