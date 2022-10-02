@@ -104,7 +104,6 @@ body{
     font-family: 'Franklin Gothic Medium';
     font-weight: 900;
     color: rgb(1, 1, 1) !important;
-    box-shadow: 0 0 1px #ccc;
     transition-duration: 0.8s;
     transition-duration: linear;
     box-shadow:0px 0 0 #f740ae  inset;
