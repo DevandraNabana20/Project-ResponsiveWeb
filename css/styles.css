@@ -120,7 +120,7 @@ body{
 /*Style Caraousel*/
 @import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
 
-.carousel-item>img{
+.carousel-item img{
     opacity: 0.7;
 }
 
@@ -175,4 +175,16 @@ position: relative;
  }
  /* media queries for carousel caption */
 
+ .carousel-caption a{
+    text-decoration: none;
+ }
 /*Style Caraousel*/
+
+/* title */
+span.title{
+    color: #EF2F88;
+    font-family: fantasy;
+    font-weight: 100;
+    font-size: 25px;
+}
+/* title */
