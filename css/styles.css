@@ -112,7 +112,7 @@ body{
 @import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
 
 .carousel-item img{
-    opacity: 0.7;
+    opacity: 0.5;
 }
 
 .carousel-caption h5{
