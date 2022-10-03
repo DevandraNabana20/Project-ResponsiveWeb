@@ -118,7 +118,7 @@ body{
 .carousel-caption h5{
     font-family: 'Satisfy', cursive;
     color: rgb(218, 218, 195);
-    text-shadow: .1em .1em 0 hsl(200 50% 30%);
+    text-shadow: .1em .1em 0 rgb(208, 69, 138);
 }
 
 /* media queries for carousel caption */
