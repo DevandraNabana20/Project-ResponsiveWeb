@@ -108,7 +108,7 @@ body{
 /* Style Navbar*/
 
 
-/*Style Caraousel*/
+
 @import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
 
 .carousel-item img{
@@ -178,6 +178,4 @@ span.title{
     font-weight: 100;
     font-size: 25px;
 }
-
-
 /* title */
