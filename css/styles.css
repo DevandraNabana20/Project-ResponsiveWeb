@@ -108,17 +108,7 @@ body{
 /* Style Navbar*/
 
 
-/*Style Caraousel*/
-<<<<<<< HEAD
-#Banner.carousel-item  {
-    height: 35rem;
-    position: relative;
-    background-position: center;
-    background-size: cover;
-  }
 
-  
-=======
 @import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
 
 .carousel-item img{
@@ -189,4 +179,3 @@ span.title{
     font-size: 25px;
 }
 /* title */
->>>>>>> 8ea0fecd1f452cf3dc2a3b2c5e096abc1f9e5215
