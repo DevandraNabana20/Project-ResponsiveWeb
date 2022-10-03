@@ -179,3 +179,54 @@ span.title{
     font-size: 25px;
 }
 /* title */
+
+/* Slider trending movies */
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    background: rgb(0, 0, 0);
+    border-radius: 20px;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+
+  .swiper-slide img {
+    border-radius: 20px;
+  }
+
+  .swiper-button-prev:after, .swiper-rtl .swiper-button-next:after {
+    content: 'prev';
+    color: #EF2F88;
+}
+
+.swiper-button-next:after, .swiper-rtl .swiper-button-prev:after {
+    content: 'next';
+    color: #EF2F88;
+}
+
+.swiper-pagination-bullet-active {
+    background-color: #EF2F88 !important;
+}
+
+.swiper-pagination-bullet {
+    background-color: red !important;
+  }
+
+/* Slider trending movies */
+
