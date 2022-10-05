@@ -313,7 +313,6 @@ span.title {
 }
 
 
-
 @media (min-width: 992px) {
   .card-title {
     font-size: 16px;
@@ -326,7 +325,46 @@ span.title {
   }
 }
 
+/* media queries for movie card title caption */
+/* Slider movies */
+
+
+
+
+/* upcoming trailers */
+
+/* media queries for movie card title caption */
+@media (min-width: 320px) {
+  .trailer {
+    height: 200px;
+  }
+}
+
+@media (min-width: 576px) {
+  .trailer {
+    height: 250px;
+  }
+}
+
+@media (min-width: 768px) {
+  .trailer {
+    height: 300px;
+  }
+}
+
+
+@media (min-width: 992px) {
+  .trailer {
+    height: 350px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .trailer {
+    height: 400px;
+  }
+}
 
 /* media queries for movie card title caption */
 
-/* Slider movies */
+/* upcoming trailers */
