@@ -36,3 +36,14 @@ var swiper = new Swiper(".mySwiper", {
   },
 });
 // Slider/swiper.js
+
+// Login See pasword
+function myFunction() {
+  var x = document.getElementById("floatingPassword");
+  if (x.type === "password") {
+    x.type = "text";
+  } else {
+    x.type = "password";
+  }
+}
+// Login See pasword
