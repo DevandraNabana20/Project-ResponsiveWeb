@@ -327,3 +327,24 @@ span.title {
 
 /* media queries for movie card title caption */
 /* Slider movies */
+
+
+/* Footer */
+.btn-floating :hover {
+  color: #f5176c;
+}
+
+.Judul2 a {
+  transition: transform 0.2s ease-in-out !important;
+}
+
+.Judul2 a:hover {
+  color: #f5176c !important;
+  transform: translateX(5px) !important;
+}
+
+.judul:hover {
+  color: white !important;
+}
+
+/* Footer */
