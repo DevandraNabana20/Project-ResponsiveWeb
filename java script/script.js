@@ -38,12 +38,33 @@ var swiper = new Swiper(".mySwiper", {
 // Slider/swiper.js
 
 // Login See pasword
-function myFunction() {
-  var x = document.getElementById("floatingPassword");
-  if (x.type === "password") {
-    x.type = "text";
-  } else {
-    x.type = "password";
-  }
-}
+const togglePassword = document.querySelector("#togglePassword");
+const password = document.querySelector("#password");
+
+togglePassword.addEventListener("click", function () {
+
+  // toggle the type attribute
+  const type = password.getAttribute("type") === "password" ? "text" : "password";
+  password.setAttribute("type", type);
+  // toggle the eye icon
+  this.classList.toggle('fa-eye-slash');
+  this.classList.toggle('fa-eye');
+
+});
+
+const togglePassword2 = document.querySelector("#togglePassword2");
+const password2 = document.querySelector("#password2");
+
+togglePassword2.addEventListener("click", function () {
+
+  // toggle the type attribute
+  const type = password2.getAttribute("type") === "password" ? "text" : "password";
+  password2.setAttribute("type", type);
+  // toggle the eye icon
+  this.classList.toggle('fa-eye-slash');
+  this.classList.toggle('fa-eye');
+
+});
+
+
 // Login See pasword
