@@ -125,6 +125,13 @@ body {
 /* Style Navbar*/
 
 /* login */
+.btn-facebook:hover,
+.btn-google:hover,
+.btn-login:hover {
+    opacity: 0.8;
+    background-color: white;
+}
+
 
 .btn-login {
     font-size: 0.9rem;
@@ -134,12 +141,12 @@ body {
 
 .btn-google {
     color: white !important;
-    background-color: #ea4335;
+    background-color: #ea4335 !important;
 }
 
 .btn-facebook {
     color: white !important;
-    background-color: #3b5998;
+    background-color: #3b5998 !important;
 }
 
 /* login */
