@@ -123,6 +123,47 @@
   
   /* Style Navbar*/  
 
+/*Style detail movie*/
+@media (min-width: 320px) {
+  .poster {
+      width: 50%;
+      text-align: center;
+  }
+  .play-text{
+    text-align: center;
+  }
+  .detailmovie{
+    text-align: center;
+    font-size: 13px;
+  }
+}
+
+@media (min-width: 576px) {
+  .poster {
+      width: 100%;
+  }
+  .play-text{
+    text-align: left;
+  }
+  .detailmovie{
+    text-align: left;
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .poster {
+      width: 100%;
+  }
+  .play-text{
+    text-align: left;
+  }
+  .detailmovie{
+    text-align: left;
+    font-size: 16px;
+  }
+}
+/*Style detail movie*/
 
 /* Footer */
 .btn-floating :hover {
