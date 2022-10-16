@@ -103,7 +103,7 @@
                             <div class="card-body p-4 p-sm-5">
                                 <h2 class="card-title text-center mb-5 fw-bold text-white"
                                     style="font-family: cursive;">Sign up</h2>
-                                <form method="post">
+                                <form method="get" action="login.html" onsubmit="return validation1()">
                                     <div class="input-group mb-3">
                                         <input class="form-control" id="username" name="username" placeholder="Username"
                                             value="" required>
@@ -260,7 +260,25 @@
     <!-- Swiper JS -->
     <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
 
+    <script>
+        function validation1() {
+            var pww1 = document.getElementById("password2").value;
+            var pww2 = document.getElementById("password").value;
+            if (pww1 != pww2) {
+                Swal.fire({
+                    icon: 'error',
+                    title: 'Registration Unsuccessful',
+                    text: 'Your password did not match!!'
+                })
+                return false;
+            } else {
+                return true;
+            }
+        }
+    </script>
+
     <!--link java script -->
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
     <script src="java script/script.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
