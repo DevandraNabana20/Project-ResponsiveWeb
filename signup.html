@@ -103,7 +103,7 @@
                             <div class="card-body p-4 p-sm-5">
                                 <h2 class="card-title text-center mb-5 fw-bold text-white"
                                     style="font-family: cursive;">Sign up</h2>
-                                <form method="get" action="login.html" onsubmit="return validation1()">
+                                <form method="post" onsubmit="return validation1()">
                                     <div class="input-group mb-3">
                                         <input class="form-control" id="username" name="username" placeholder="Username"
                                             value="" required>
@@ -260,6 +260,7 @@
     <!-- Swiper JS -->
     <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
 
+    <!-- Swiper Sweetalert -->
     <script>
         function validation1() {
             var pww1 = document.getElementById("password2").value;
@@ -272,7 +273,14 @@
                 })
                 return false;
             } else {
-                return true;
+                Swal.fire({
+                    icon: 'success',
+                    title: 'Registration Successful',
+                    text: 'Now you can login/sign in!!'
+                }).then(function () {
+                    window.location = "login.html";
+                });
+                return false;
             }
         }
     </script>
