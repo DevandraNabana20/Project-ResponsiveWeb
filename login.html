@@ -261,9 +261,11 @@
     <!-- Swiper Sweetalert -->
     <script>
         function validation2() {
+            var username = document.getElementById("username").value;
             Swal.fire({
                 icon: 'success',
-                title: 'Login Successfull'
+                title: 'Login Successfull' + '\n Welcome' + '&nbsp' + username
+
             }).then(function () {
                 window.location = 'index.html';
             });
