@@ -364,6 +364,22 @@
     </section>
     <!-- Footer -->
 
+    <!----Scroll Top!---->
+    <a href="#" class="scrollTop rounded-circle" id="scroll-Top">
+        <i class='bx bx-chevron-up scrollTop_icon'></i>
+    </a>
+
+    <script>
+        // Show Scroll Back To Top //
+        function scrollTop() {
+            const scrollTop = document.getElementById('scroll-Top')
+            // when the scroll is higher than 560 viewport height
+            if (this.scrollY >= 260) scrollTop.classList.add('show-scroll');
+            else scrollTop.classList.remove('show-scroll')
+        }
+        window.addEventListener('scroll', scrollTop)
+    </script>
+
 
 
     <!-- Swiper JS -->
