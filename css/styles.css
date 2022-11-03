@@ -130,7 +130,7 @@ body {
 
 .carousel-item img {
   opacity: 0.5;
-  border-radius: 50px;
+  border-radius: 10px;
 }
 
 .carousel-caption h5 {
